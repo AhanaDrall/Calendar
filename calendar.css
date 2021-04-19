@@ -1,0 +1,40 @@
+.months{
+    margin:0;
+    padding:0;
+    display:flex;
+    background-color: tomato;
+}
+
+body{
+    background-image: url('assets/CalCover6.jpg');
+    background-size:cover;
+}
+
+
+.heading{
+    color: white;
+    font-size: 8vh;
+    font-weight: bold;
+    font-family: cursive;
+    /* display:flex; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.dropdown{
+    text-align: center;
+}
+.dropdown-menu {
+    background-image: url('assets/CalCover6');
+}
+
+#footer{
+    /* align-content: center; */
+    /* padding-bottom: 30px; */
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 9.5rem;            /* Footer height */
+  
+  }
